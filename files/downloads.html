@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Download Ethics Lesson PDFs</title>
+<style>
+:root{
+  --bg:#f8f9fa;
+  --text:#2e2e2e;
+  --muted:#6c757d;
+  --card-bg:#ffffff;
+  --card-border:#e2e6ea;
+  --accent:#4f86f7;
+  --radius:10px;
+  --maxw:960px;
+  --shadow:0 2px 6px rgba(0,0,0,0.05);
+}
+*{box-sizing:border-box;}
+body{
+  margin:0;
+  font-family:'Segoe UI',Roboto,system-ui,sans-serif;
+  background-color:var(--bg);
+  color:var(--text);
+  line-height:1.6;
+}
+.wrap{
+  max-width:var(--maxw);
+  margin:40px auto;
+  padding:24px;
+}
+h1{
+  color:var(--accent);
+  font-size:26px;
+  margin:0 0 10px 0;
+}
+.meta{
+  color:var(--muted);
+  font-size:14px;
+}
+nav a{
+  text-decoration:none;
+  font-size:14px;
+  color:var(--accent);
+  border:1px solid var(--card-border);
+  padding:6px 12px;
+  border-radius:6px;
+  background-color:#f0f4ff;
+}
+main{
+  margin-top:30px;
+  display:grid;
+  grid-template-columns:1fr;
+  gap:20px;
+}
+.card{
+  background-color:var(--card-bg);
+  border:1px solid var(--card-border);
+  border-radius:var(--radius);
+  padding:20px;
+  box-shadow:var(--shadow);
+}
+.card h2{
+  margin-top:0;
+  color:var(--accent);
+  font-size:20px;
+}
+a.download{
+  display:inline-block;
+  margin-top:10px;
+  text-decoration:none;
+  background-color:var(--accent);
+  color:#fff;
+  padding:10px 16px;
+  border-radius:6px;
+  font-weight:500;
+  transition:.2s;
+}
+a.download:hover{background-color:#356ce0;}
+footer{
+  margin-top:40px;
+  font-size:13px;
+  color:var(--muted);
+  text-align:center;
+}
+@media(max-width:768px){
+  .wrap{padding:16px;}
+  h1{font-size:22px;}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Download Ethics Lesson PDFs</h1>
+    <div class="meta">Original source files used to create the lesson pages.</div>
+    <nav style="margin-top:12px;"><a href="/index.html">← Back to Index</a></nav>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Lesson 1 – Basic Concepts in Ethics</h2>
+      <p>Original PDF used for the first lesson.</p>
+      <a class="download" href="/files/Week 1_ETHICS (2).pdf" download>Download PDF</a>
+    </section>
+
+    <section class="card">
+      <h2>Lesson 2–3 – The Postmodern Approach to Ethics</h2>
+      <p>Complete lesson source file with all definitions and arguments.</p>
+      <a class="download" href="/files/WEEK 2-3_The Postmodern Approach (1).pdf" download>Download PDF</a>
+    </section>
+
+    <section class="card">
+      <h2>Lesson 6–7 – God and Morality</h2>
+      <p>Final lesson source discussing Divine Command Theory and moral foundations.</p>
+      <a class="download" href="/files/WEEK 6-7_GOD and MORALITY.pdf" download>Download PDF</a>
+    </section>
+  </main>
+
+  <footer>
+    All PDFs are property of their respective sources. Store them in the same folder as this HTML so downloads work offline.
+  </footer>
+</div>
+</body>
+</html>
